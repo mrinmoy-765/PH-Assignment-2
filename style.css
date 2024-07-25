@@ -26,9 +26,8 @@
         width: 13.3rem;
         height: 3.20rem;
         display: flex;
-        flex-direction: row;
         justify-content: center;
-        align-items: flex-start;
+        align-items: center;
         padding: 16px 40px 16px 40px;
         margin: 0px -4px;
         border: none;
@@ -39,10 +38,9 @@
         font-weight: 600;
         line-height: 1.30rem;
         letter-spacing: 0px;
-        text-align: left;
 }
 
-.habit{
+.habit, .run{
     background: rgb(17, 17, 17);
     padding-top: 5.90rem;
 }
@@ -145,7 +143,7 @@ li a{
 
 .banner-button{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
@@ -163,9 +161,8 @@ li a{
     width: 13.3rem;
     height: 3.20rem;
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    align-items: flex-start;
+    align-items:center;
     padding: 16px 40px 16px 40px;
     border: 1px solid white;
     border-radius: 42px;
@@ -331,7 +328,71 @@ li a{
 
 
 
+/* run section styles  */
+.btn-primary2 {
+    width: 13.3rem;
+    height: 3.20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 40px 16px 40px;
+    margin: 0px -4px;
+    border: none;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    color: rgb(255, 255, 255);
+    font-size: 1.1rem;
+    font-weight: 600;
+    line-height: 1.30rem;
+    letter-spacing: 0px;
+}
 
+.run{
+    padding-left:11rem;
+    padding-right: 11rem;
+}
+
+#run-card{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    padding: 2rem 2rem 2rem 4rem; 
+    max-width: 63rem;
+    height: auto;
+}
+
+.run-content h1{
+    color: rgb(255, 255, 255);
+        font-size: 2.85rem;
+        font-weight: 900;
+        line-height: 120%;
+        letter-spacing: 0%;
+}
+
+.run-content p{
+    color: rgba(255, 255, 255, 0.5);
+        font-size: 0.83rem;
+        font-weight: 400;
+        line-height: 1.42rem;
+        letter-spacing: 0.3px;
+        margin-top: 0.83rem;
+        margin-bottom: 2rem;
+}
+
+.run-img{
+    width: 22rem;
+    height: 18.50rem;
+    margin-right: 0px;
+}
+
+.run-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 18px;
+   
+}
 
 
 
@@ -449,4 +510,30 @@ li a{
     padding: 0 5rem;
    }
     
+}
+
+/* run section */
+@media screen  and (max-width:576px){
+
+    .run{
+        padding: 3rem 0rem;
+    }
+    #run-card{
+        grid-template-columns: repeat(1,1fr);
+        max-width: 21rem;
+        height: auto;
+        padding: 2rem;  
+    }
+
+    .run-img{
+        width: 17rem;
+        height: 10rem;
+        margin-top: 3rem;
+    }
+
+    .btn-primary2{
+        width: 287px;
+        height: 54px;
+        align-items: center;
+    }
 }
