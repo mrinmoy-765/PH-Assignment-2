@@ -40,7 +40,7 @@
         letter-spacing: 0px;
 }
 
-.habit, .run, .exercise{
+.habit, .run, .exercise, .team{
     background: rgb(17, 17, 17);
     padding-top: 5.90rem;
 }
@@ -711,6 +711,74 @@ option{
     margin-top: 2rem;
     margin-bottom: 3.08rem;
 }
+
+/* team */
+.team-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.team-content h1{
+color: rgb(255, 255, 255);
+    font-size: 2.85rem;
+    font-weight: 900;
+    line-height: 120%;
+}
+
+.team-content p{
+    color: rgba(255, 255, 255, 0.5);
+        font-size: .83rem;
+        font-weight: 400;
+        line-height: 1.42rem;
+        letter-spacing: 0.3px;
+        margin-top: 0.83rem;
+        margin-bottom: 2rem;
+}
+.row{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.pd-t{
+    padding-top: 10px;
+}
+
+.pd-b{
+    padding-bottom: 10px;
+}
+
+ .team-card{
+    width: 63rem;
+    height: auto;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.box{
+    width:19.39rem;
+    height:16.15rem;
+}
+
+
+
+
+.box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 18px;
+}
+
+
+
+
+
+
+
+
+
 
 
 
