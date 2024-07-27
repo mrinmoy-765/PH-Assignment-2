@@ -1001,15 +1001,9 @@ footer p{
 
 /* Responsive for small devices */
 
+
 /* common button style */
 
-@media (max-width: 576px) {
-    .banner{
-       margin: 0;
-       padding: 0;
-       box-sizing: border-box;
-    }
-}
 @media screen  and (max-width:576px){
         .btn-primary {
             width: 9.80rem;
@@ -1064,8 +1058,12 @@ footer p{
         left: 1rem;
         }
    .img-btn{
-       left: -2.7rem;
+       left: -1rem;
         top: 14rem;
+   }
+
+   .btn-text2{
+    line-height: 0.8rem;
    }
 
    .img-btn2{
@@ -1166,13 +1164,16 @@ footer p{
         display: none;
     }
 
+
     .res-txt{
+        display: block;
         position: absolute;
-        top: 8rem;
-        padding-left: 8px;
+        top: 7.6rem;
+        padding-left:8px;
         color: white;
-        font-size: medium;
+        font-size: 0.83rem;
         font-weight: 500;
+        
     }
 }
 
