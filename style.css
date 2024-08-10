@@ -1315,5 +1315,6 @@ footer p{
     
     .right p{
         padding: 0px;
+        padding-top: 15px;
     }
 }
